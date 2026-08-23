@@ -1,0 +1,31 @@
+.git
+.github
+.gitignore
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# Logs, sessions, and temporary downloads
+*.log
+.sessions
+igbot_*
+downloads
+work
+outputs
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
